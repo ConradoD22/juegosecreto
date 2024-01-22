@@ -1,0 +1,99 @@
+alert ('Bienevenida y bienvenido a nuestro sitio web');
+
+let nombre = "Luna";
+let edad = 25;
+let numeroDeVentas = 50;
+let saldoDisponible = 1000;
+
+alert ('Error!! Completa todos los campos');
+let mensajeDeError = "Error!! Completa todos los campor";
+alert (mensajeDeError);
+
+let nombreUsuario = prompt ("Cual es el nombre de usuario?");
+let edadUsuario = prompt ("Ingresa tu edad por favor");
+
+if (edadUsuario >= 18) {
+    alert('Puedes obtener tu licencia de conducir');
+}
+
+
+Muestra una alerta con el mensaje "¡Bienvenida y bievenido a nuestro sitio web!".
+Declara una variable llamada nombre y asígnale el valor "Luna".
+Crea una variable llamada edady asígnale el valor 25.
+Establece una variable numeroDeVentas y asígnale el valor 50.
+Establece una variable saldoDisponible y asígnale el valor 1000.
+Muestra una alerta con el texto "¡Error! Completa todos los campos".
+Declara una variable llamada mensajeDeError y asígnale el valor "¡Error! Completa todos los campos". Ahora muestra una alerta con el valor de la variable mensajeDeError .
+Utiliza un prompt para preguntar el nombre del usuario y almacénalo en la variable nombre .
+Pide al usuario que ingrese su edad usando un prompt y almacénala en la variable edad.
+Ahora, si la edad es mayor o igual a 18, muestra una alerta con el mensaje "¡Puedes obtener tu licencia de conducir!".
+
+
+
+Desafíos:
+
+Pregunta al usuario qué día de la semana es. Si la respuesta es "Sábado" o "Domingo", muestra "¡Buen fin de semana!". De lo contrario, muestra "¡Buena semana!".
+Verifica si un número ingresado por el usuario es positivo o negativo. Muestra una alerta informativa.
+Crea un sistema de puntuación para un juego. Si la puntuación es mayor o igual a 100, muestra "¡Felicidades, has ganado!". En caso contrario, muestra "Intenta nuevamente para ganar.".
+Crea un mensaje que informe al usuario sobre el saldo de su cuenta, utilizando un template string para incluir el valor del saldo.
+Pide al usuario que ingrese su nombre mediante un prompt. Luego, muestra una alerta de bienvenida usando ese nombre.
+
+/*let diaUsuario = prompt ('Que dia de la semana es?');
+
+if (diaUsuario === 'sabado' || diaUsuario === 'domingo'){
+   alert ('Buen fin de semana');}
+      else{
+      alert ('Buena semana');}*/
+   
+/*let numeroUsuario = prompt ('Ingrese un numero')
+if (numeroUsuario < 0){
+   alert (`El numero ${numeroUsuario}  es negativo`)}
+   else {
+      alert (`El numero ${numeroUsuario} es positivo`)
+}*/
+
+/*let puntuacion = 105;
+if (puntuacion >= 100) {
+    console.log('¡Enhorabuena, has ganado!');
+} else {
+    console.log('Inténtalo de nuevo para ganar.');
+}*/
+
+/*let saldo = 1000;
+alert(`El saldo es ${saldo}, gracias`)*/
+
+/*let nombre = prompt ('Ingrese su nombre');
+alert(`Bienvenido ${nombre}`);*/
+
+Desafíos:
+
+Crea un contador que comience en 1 y vaya hasta 10 usando un bucle 'while'. Muestra cada número.
+Crea un contador que comience en 10 y vaya hasta 0 usando un bucle 'while'. Muestra cada número.
+Crea un programa de cuenta progresiva. Pide un número y cuenta desde 0 hasta ese número utilizando un bucle 'while' en la consola del navegador.
+Crea un programa de cuenta progresiva. Pide un número y cuenta desde 0 hasta ese número utilizando un bucle 'while' en la consola del navegador.
+
+/*let contador = 1;
+while (contador <= 10){
+   console.log(contador);
+   contador ++;
+}
+
+let contador1 = 10;
+while (contador1 >= 0){
+   console.log(contador1)
+   contador1 --;
+}*/
+
+/*let numero = prompt ('digite un numero');
+
+while (numero >= 0){
+   console.log(numero)
+   numero --;
+}*/
+
+/*let numero = prompt ('digite un numero');
+let contador = 0;
+while (contador <= numero){
+   console.log(contador)
+   contador ++;
+}*/
